@@ -1,0 +1,22 @@
+1. Responder las siguientes preguntas
+i. ¿Qué es una función? ¿Para qué sirve?
+ii. Describir la estructura general de una función.
+iii. ¿Qué son los parámetros?
+iv. ¿Qué son las variables globales?
+v. ¿Qué son las variables locales?
+
+i. ¿Qué es una función? ¿Para qué sirve?
+Una función es un bloque de código que realiza una tarea específica y puede ser reutilizado en diferentes partes del programa. Sirve para organizar y estructurar el código de manera que sea más fácil de leer, mantener y reutilizar.
+ii. Describir la estructura general de una función
+La estructura general de una función es más o menos así:
+tipo_de_retorno nombre_de_la_función(parámetros) {
+    // Cuerpo de la función
+    // Instrucciones o código que realiza la tarea
+    return valor; // (si es necesario devolver algo)
+}
+iii. ¿Qué son los parámetros?
+Los parámetros son los valores que le pasas a una función cuando la llamas, para que los utilice en su tarea. Por ejemplo, si tienes una función que suma dos números, los parámetros serían los números que quieres sumar. 
+iv. ¿Qué son las variables globales?
+Las variables globales son aquellas que se declaran fuera de cualquier función, normalmente al inicio del programa, y pueden ser accedidas y modificadas desde cualquier parte del código.
+v. ¿Qué son las variables locales?
+Las variables locales son aquellas que se declaran dentro de una función y solo existen mientras la función está ejecutándose.
